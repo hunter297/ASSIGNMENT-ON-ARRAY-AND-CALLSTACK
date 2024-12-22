@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>METHODS IN ARRAYS AND CALLSTACK</title>
+</head>
+<body>
+
+
+    <script>
+        
+
+
+
+
+        var foods = ['eggs','rice','fish','meat','plantain']
+        var guns = ['KAG-6','URB','INP-9','M4A1','KALA']
+
+       document.write(foods[3])
+        document.write("<br>")
+        document.write(guns[1])
+        document.write("<br>")
+        document.write(foods.length)
+        document.write("<br>")
+        foods.pop()
+        document.write(foods)
+        document.write("<br>")
+        document.write(guns.join("%100"))
+        document.write("<br>")
+        guns.push("SCYTHE")
+        document.write(guns)
+        document.write("<br>")
+        foods.shift()
+        document.write(foods)
+        document.write("<br>")
+        guns.shift()
+        document.write(guns)
+        document.write("<br>")
+        foods.push()
+        document.write(foods)
+        document.write("<br>")
+        guns.pop()
+        document.write(guns)
+        document.write("<br>")
+
+
+        function add(a, b){
+            return a+b;
+        }
+
+        function average (a, b){
+            return add (a, b) / 2;
+        }
+        let result  = average(10, 20);
+        document.write(result)
+        
+
+
+    
+
+
+        
+    </script>
+</body>
+</html>
